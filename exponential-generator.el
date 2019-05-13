@@ -7,8 +7,6 @@
       (setq i (1+ i))
       (iter-yield (expt i pow)))))
 
-(ffloor 3.1)
-
 (iter-defun flt-gen ()
   (let ((i 'nil)
 	(g (exp-gen 2))
